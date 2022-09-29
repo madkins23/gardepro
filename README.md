@@ -17,7 +17,7 @@ were overwriting the previous files.
 This application renames an individual file and copies it to the NAS.
 The renaming is done in a way that:
 
-* separates the media by year,
+* separates the media into subdirectories by year,
 * begins with the date and time so name ordering is chronological, and
 * preserves the original basename (for no good reason).
 

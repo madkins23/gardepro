@@ -1,4 +1,4 @@
-module gardepro
+module github.com/madkins23/gardepro
 
 go 1.18
 
