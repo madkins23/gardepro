@@ -1,5 +1,5 @@
 /*
-GardePro renames and moves jpg and mp4 files from GardePro deer cameras.
+GardePro renames and moves JPG and MP4 files from GardePro deer cameras.
 The files are renamed with the images and videos are taken and
 copied to a specified repository.
 
