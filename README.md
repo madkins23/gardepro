@@ -29,7 +29,7 @@ There is code to check for non-identical overwrites.
 
 This isn't the command-line usage which can be found in the
 [application source](https://github.com/madkins23/gardepro/blob/main/cmd/gardepro/gardepro.go),
-the [godoc](https://pkg.go.dev/github.com/madkins23/gardepro),
+the [godoc](https://pkg.go.dev/github.com/madkins23/gardepro/cmd/gardepro),
 or by building and running it without arguments.
 This section describes how I configure the application on my system.
 
@@ -63,11 +63,11 @@ The application may be weird hacky crap but this bit is really cool. ;-)
 
 I use the following Go modules:
 
-* `github.com/abema/go-mp4` to get MP4 creation date/time
-* `github.com/dsoprea/go-exif/v3` to get JPG creation date/time
-* `github.com/rs/zerolog` for pretty logging
-* `github.com/sqweek/dialog`
+* [github.com/abema/go-mp4](github.com/abema/go-mp4) to get MP4 creation date/time
+* [github.com/dsoprea/go-exif](github.com/dsoprea/go-exif) to get JPG creation date/time
+* [github.com/rs/zerolog](github.com/rs/zerolog) for pretty logging
+* [github.com/sqweek/dialog](github.com/sqweek/dialog)
   to display error messages directly to the user as they occur
   (they are also logged to a file)
-* `github.com/udhos/equalfile` to compare files
+* [github.com/udhos/equalfile](github.com/udhos/equalfile) to compare files
   in the case of duplicate target paths
