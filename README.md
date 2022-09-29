@@ -28,7 +28,8 @@ There is code to check for non-identical overwrites.
 ## Installation and Usage
 
 This isn't the command-line usage which can be found in the
-[application source](https://github.com/madkins23/gardepro/blob/main/cmd/gardepro/gardepro.go)
+[application source](https://github.com/madkins23/gardepro/blob/main/cmd/gardepro/gardepro.go),
+the [godoc](https://pkg.go.dev/github.com/madkins23/gardepro),
 or by building and running it without arguments.
 This section describes how I configure the application on my system.
 
