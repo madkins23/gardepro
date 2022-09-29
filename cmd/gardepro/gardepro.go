@@ -67,7 +67,12 @@ func main() {
 	flags.StringVar(&source, "source", "", "Source image directory to be fixed")
 	flags.StringVar(&target, "target", "", "Target directory for image files")
 	if err := flags.Parse(os.Args[1:]); err != nil {
-		dialog.Message(err.Error()).Title("Usage Error").Error()
+		dialog.Message(err.Error()).Title("Error parsing command line flags").Error()
+		return
+	}
+
+	if source == "" || target == "" {
+		dialog.Message("Missing command line flag -source or -target").Title("Error parsing command line flags").Error()
 		return
 	}
 
@@ -84,10 +89,6 @@ func main() {
 		_, _ = fmt.Fprintln(f) // Separate blocks of log statements.
 		// Use ConsoleWriter for readable text instead of JSON blocks.
 		log.Logger = log.Output(zerolog.ConsoleWriter{Out: f, TimeFormat: "15:04:05", NoColor: true})
-	}
-
-	if source == "" || target == "" {
-		flags.Usage()
 	}
 
 	target = strings.TrimSuffix(target, "/")
