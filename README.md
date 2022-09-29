@@ -57,17 +57,17 @@ The application runs once for each such file,
 renaming and moving the file as I desire.
 
 I'm surprised and pleased at how it easy it was to get the drag and drop behavior.
-The application may be weird hacky crap but this bit is really cool. ;-)
+The application may be weird hacky crap but the drag and drop desktop integration is really cool. ;-)
 
 ## Modules
 
-I use the following Go modules:
+This application uses the following Go modules:
 
-* [github.com/abema/go-mp4](github.com/abema/go-mp4) to get MP4 creation date/time
-* [github.com/dsoprea/go-exif](github.com/dsoprea/go-exif) to get JPG creation date/time
-* [github.com/rs/zerolog](github.com/rs/zerolog) for pretty logging
-* [github.com/sqweek/dialog](github.com/sqweek/dialog)
+* [github.com/abema/go-mp4](https://github.com/abema/go-mp4) to get MP4 creation date/time
+* [github.com/dsoprea/go-exif](https://github.com/dsoprea/go-exif) to get JPG creation date/time
+* [github.com/rs/zerolog](https://github.com/rs/zerolog) for pretty logging
+* [github.com/sqweek/dialog](https://github.com/sqweek/dialog)
   to display error messages directly to the user as they occur
   (they are also logged to a file)
-* [github.com/udhos/equalfile](github.com/udhos/equalfile) to compare files
+* [github.com/udhos/equalfile](https://github.com/udhos/equalfile) to compare files
   in the case of duplicate target paths
