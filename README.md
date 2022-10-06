@@ -2,6 +2,12 @@
 
 GardePro renames and moves JPG and MP4 files from GardePro deer cameras.
 
+## Deprecated
+
+After I created this program I decided to make a more general version.
+This project is now deprecated.
+Use [curate](https://github.com/madkins23/curate) instead.
+
 ## Background
 
 I have two GardePro deer cameras looking across the pasture behind my house.
