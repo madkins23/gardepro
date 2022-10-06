@@ -1,12 +1,11 @@
-# GardePro
+# GardePro ![maintenance-status](https://img.shields.io/badge/maintenance-deprecated-red.svg) [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 GardePro renames and moves JPG and MP4 files from GardePro deer cameras.
 
-## Deprecated
+_After I created this program I decided to make a more general version:_
+[curate](https://github.com/madkins23/curate).
 
-After I created this program I decided to make a more general version.
-This project is now deprecated.
-Use [curate](https://github.com/madkins23/curate) instead.
+**This project is now deprecated.**
 
 ## Background
 
